@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dewangga Ecky</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="main-header" class="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">DEWANGGA ECKY</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__title">
+          <h1>Hi , It's <span class="text__name">Dewangga Ecky</span></h1>
+          <h3 class="text__animation">I'm a <span id="dynamic-text"></span></h3>
+          <p>
+            Student at Universitas Islam Negeri Maulana Malik Ibrahim Malang,
+            majoring in informatics engineering.
+          </p>
+          <a href="#about" class="profile__read">
+            Read More
+            <i class="bx bx-right-arrow-alt"></i>
+          </a>
+
+          <div class="social__link">
+            <a href="https://github.com/DewanggaEcky" target="_blank">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://www.instagram.com/dewanggaecky/" target="_blank">
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a href="https://x.com/dwgecky" target="_blank">
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </div>
+        </div>
+        <img src="profile.jpg" alt="profile picture" class="profile" />
+      </section>
+
+      <section class="about section" id="about">
+        <h2 class="about__heading">About Me</h2>
+
+        <div class="card__about">
+          <div class="card__content">
+            <img src="./about2.jpg" alt="" class="card__pict" />
+            <p>
+              My name is Dewangga Ecky Putra Setiawan, I am 20 years old, I was
+              born in the city of Gresik. I am a student at Universitas Islam
+              Negeri Maulana Malik Ibrahim Malang, majoring in informatics
+              engineering. I am very interested in becoming a web developer.
+            </p>
+          </div>
+          <div class="bg__card"></div>
+          <div class="blob__card"></div>
+        </div>
+      </section>
+
+      <section class="services section" id="services">
+        <h2 class="service__heading">Services</h2>
+        <div class="card__services-wrapper">
+          <div class="card__services">
+            <div class="services__content">
+              <i class="bx bxl-figma"></i>
+              <h4>UI/UX Design</h4>
+              <p>
+                Menciptakan pengalaman pengguna yang intuitif dan desain
+                antarmuka yang menarik untuk meningkatkan kepuasan dan interaksi
+                pengguna.
+              </p>
+            </div>
+          </div>
+
+          <div class="card__services">
+            <div class="services__content">
+              <i class="bx bx-code-alt"></i>
+              <h4>Web developer</h4>
+              <p>
+                Mengembangkan website responsif dan fungsional dengan teknologi
+                modern untuk memastikan performa optimal di berbagai perangkat.
+              </p>
+            </div>
+          </div>
+
+          <div class="card__services">
+            <div class="services__content">
+              <i class="bx bx-code-curly"></i>
+              <h4>Backend Developer</h4>
+              <p>
+                Membangun sistem backend yang kuat dan scalable untuk mendukung
+                kelancaran operasional serta pengolahan data secara efisien.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <h2 class="contact__heading">Contact</h2>
+        <div class="contact__card">
+          <form action="">
+            <div class="input__group">
+              <div class="input__box">
+                <input type="text" placeholder="Full Name" />
+                <input type="email" placeholder="Your Email" />
+              </div>
+              <div class="input__box">
+                <input type="number" placeholder="Phone Number" />
+                <input type="text" placeholder="Subject" />
+              </div>
+            </div>
+            <div class="input__group2">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Your Message"
+              ></textarea>
+              <input type="submit" value="Send" class="btn" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© 2025 Dewangga Ecky. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
